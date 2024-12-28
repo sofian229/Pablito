@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Charecters.meta
+    - Assets/Charecters/Enviroment.meta
+    - Assets/Charecters/Enviroment/Coin.prefab
+    - Assets/Charecters/Enviroment/Coin.prefab.meta
+    - Assets/Charecters/Player.meta
+    - Assets/Charecters/Player/Chef Equipment.meta
+    - Assets/Charecters/Player/Chef Equipment/Mustache.obj
+    - Assets/Charecters/Player/Chef Equipment/Mustache.obj.meta
+    - Assets/Charecters/Player/Chef Equipment/chef_hat.obj
+    - Assets/Charecters/Player/Chef Equipment/chef_hat.obj.meta
+    - Assets/Charecters/Player/Chef Equipment/lp_weld.obj
+    - Assets/Charecters/Player/Chef Equipment/lp_weld.obj.meta
+    - Assets/Charecters/Player/Player Animations.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Falling Idle.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Falling Idle.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Hard Landing.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Hard Landing.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Idle (1).fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Idle (1).fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Idle.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Idle.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Jumping.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Jumping.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/LAST HARD LANDING.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/LAST HARD LANDING.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Landing.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Landing.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Mutant Jumping.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Mutant Jumping.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/NEW NEW HARD LANDING.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/NEW NEW HARD LANDING.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Old Hard Landing.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Old Hard Landing.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Old Landing.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Old Landing.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ Loading (Old).fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ Loading (Old).fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ Reload.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ Reload.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/PJ.fbx.meta
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Running.fbx
+    - Assets/Charecters/Player/Player Animations/Only RIgs/Running.fbx.meta
+    - Assets/Charecters/Player/Player Model.meta
+    - Assets/Charecters/Player/Player Model/Delete  Later.meta
+    - Assets/Charecters/Player/Player Model/Delete  Later/T-Pose.fbx
+    - Assets/Charecters/Player/Player Model/Delete  Later/T-Pose.fbx.meta
+    - Assets/Charecters/Player/Player Model/Player Animation Controller.controller
+    - Assets/Charecters/Player/Player Model/Player Animation Controller.controller.meta
+    - Assets/Charecters/Player/Player Model/Player Model.fbx
+    - Assets/Charecters/Player/Player Model/Player Model.fbx.meta
+    - Assets/Charecters/Player/Player Prefab.meta
+    - Assets/Charecters/Player/Player Prefab/ActualPlayerPrefab.meta
+    - Assets/Charecters/Player/Player Prefab/CylinderPrefab.meta
+    - Assets/Charecters/Player/Player Prefab/CylinderPrefab/Player (Cylinder)  Prefab.prefab
+    - Assets/Charecters/Player/Player Prefab/CylinderPrefab/Player (Cylinder)  Prefab.prefab.meta
+    - Assets/Materials.meta
+    - Assets/Materials/Enemies.meta
+    - Assets/Materials/Enemies/Bread.meta
+    - Assets/Materials/Enemies/Bread/Body.mat
+    - Assets/Materials/Enemies/Bread/Body.mat.meta
+    - Assets/Materials/Enemies/Bread/Eyes.mat
+    - Assets/Materials/Enemies/Bread/Eyes.mat.meta
+    - Assets/Materials/Enemies/Bread/Musrache.mat
+    - Assets/Materials/Enemies/Bread/Musrache.mat.meta
+    - Assets/Materials/Enviroment Materials.meta
+    - Assets/Materials/Enviroment Materials/Coin.mat
+    - Assets/Materials/Enviroment Materials/Coin.mat.meta
+    - Assets/Materials/Enviroment Materials/Floor.mat
+    - Assets/Materials/Enviroment Materials/Floor.mat.meta
+    - Assets/Materials/Enviroment Materials/Patform.mat
+    - Assets/Materials/Enviroment Materials/Patform.mat.meta
+    - Assets/Materials/Player Materials.meta
+    - Assets/Materials/Player Materials/Eye Brows.mat
+    - Assets/Materials/Player Materials/Eye Brows.mat.meta
+    - Assets/Materials/Player Materials/Mustache.mat
+    - Assets/Materials/Player Materials/Mustache.mat.meta
+    - Assets/Materials/Player Materials/Skin.mat
+    - Assets/Materials/Player Materials/Skin.mat.meta
+    - Assets/Materials/Player Materials/playerBody.mat
+    - Assets/Materials/Player Materials/playerBody.mat.meta
+    - Assets/Materials/Player Materials/playerHead.mat
+    - Assets/Materials/Player Materials/playerHead.mat.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/SampleScene/NavMesh.asset
+    - Assets/Scenes/SampleScene/NavMesh.asset.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Enemy.meta
+    - Assets/Scripts/Enemy/BreadAI.meta
+    - Assets/Scripts/Enemy/BreadAI/BreadAI.cs
+    - Assets/Scripts/Enemy/BreadAI/BreadAI.cs.meta
+    - Assets/Scripts/Enemy/BreadAI/NewBreadAI.cs
+    - Assets/Scripts/Enemy/BreadAI/NewBreadAI.cs.meta
+    - Assets/Scripts/Player Scripts.meta
+    - Assets/Scripts/Player Scripts/CoinCollector.cs
+    - Assets/Scripts/Player Scripts/CoinCollector.cs.meta
+    - Assets/Scripts/Player Scripts/EnemyInteractor.cs
+    - Assets/Scripts/Player Scripts/EnemyInteractor.cs.meta
+    - Assets/Scripts/Player Scripts/MomentScript.cs
+    - Assets/Scripts/Player Scripts/MomentScript.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
